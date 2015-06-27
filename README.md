@@ -1,3 +1,5 @@
+[![GitHub version](https://badge.fury.io/gh/Dstt%2FElephant.svg)](http://badge.fury.io/gh/Dstt%2FElephant)
+
 # Elephant
 Angular password manager
 
@@ -9,11 +11,11 @@ The app have a very simple web service written in php with the implementation of
 
 UI [Bootsrap components for Angular](https://angular-ui.github.io/bootstrap/)
 
-Check out [the demo at this link](project.dinosatto.com/Elephant/)</h2>
+# Check out [the demo at this link](http://project.dinosatto.com/Elephant/)
 
 ## Install Instructions
 
-* Download master
+* Download [master](https://github.com/DStt/Elephant/archive/master.zip)
 * Copy folder to your Apache root
 * Set the write permission to the folder 'ws', required by the slqite db
 * Open your browser to http://path/of/your/Elephant/dir/
