@@ -23,10 +23,10 @@ $password = "pass";
 if(($_GET['pass']!=md5($password) && $func!="try")){
     echo '{ "status" : "error" }';
     exit(1);
-}  elseif(($func=="try" && $_GET['pass']==$password) || !isset($_GET['code'])) {
+}  elseif(($func=="try" && $_GET['pass']==$password)) {
     echo '{ "status" : "ok" , "password" : "'.md5($password).'"}';
     exit(1);
 }
 
-$db->set_connections(array('development' => "sqlite://unix($rootDir/elephant.db)"));
+$db->set_connections(array('development' => "sqlite://elephant.db"));
 $db->set_default_connection('development');
