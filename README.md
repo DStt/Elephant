@@ -9,7 +9,7 @@ The app have a very simple web service written in php with the implementation of
 
 UI [Bootsrap components for Angular](https://angular-ui.github.io/bootstrap/)
 
-<h2 align="center">[Try the demo](project.dinosatto.com/Elephant/)</h2>
+Check out [the demo at this link](project.dinosatto.com/Elephant/)</h2>
 
 ## Install Instructions
 
@@ -31,6 +31,7 @@ Insert the client name in the first textbox, then click on '+' or press enter
 Double click on the client name, type the new name, then press enter or leave the textbox
 - **Delete a Client**
 Click on the client button 'X', then confirm the deletion with a click on the alert box.
+
 > All the client's project and account will be deleted
 
 ### Projects
@@ -40,6 +41,7 @@ If it is not already selected, click on the client name, then insert the project
 Double click on the project name, type the new name, then press enter or leave the textbox
 - **Delete a Client's Project**
 Click on the client button 'X', then confirm the deletion with a click on the alert box
+
 > All the client's account will be deleted
 
 ### Accounts
