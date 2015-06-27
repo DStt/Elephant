@@ -1,0 +1,79 @@
+.nav, .pagination, .carousel, .panel-title a ,.badge{ cursor: pointer; }
+
+.btn-logout{
+    color: #fff;
+    border:none;
+    background: none;
+    display: block;
+    float: right;
+    margin: 15px;
+    padding: 0;
+}
+
+#wrapper,#header{
+    min-width: 300px;
+}
+
+body {
+    padding-top: 50px;
+    overflow: hidden;
+    background: #E2EAEE;
+}
+#wrapper {
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    display: inline-block;
+}
+#header{
+    background: #3E89C4;
+}
+.navbar-brand,.navbar-brand:hover{
+    color: #fff!important;
+    font-weight: bold;
+}
+#main-wrapper {
+    height: 100%;
+    overflow-y: auto;
+    padding: 50px 0 0px 0;
+}
+#main {
+    position: relative;
+    height: 100%;
+    overflow-y: auto;
+    padding: 0 15px;
+}
+
+.footer {
+    background-color:#ffffff;
+    bottom:0;
+    position:fixed;
+    padding:10px;
+}
+
+
+
+h3{
+    color: #777;
+    font-size: 18px;
+    line-height: 20px;
+}
+.card{
+    background: #fff;
+    margin-top: 20px
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    background-color: #74B1E1;
+    border-color: #74B1E1;
+}
+
+.panel-default>.panel-heading {
+    background: none;
+}
+.page-header {
+    margin:0;
+}

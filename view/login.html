@@ -1,0 +1,98 @@
+<style>
+    /**
+	 * parallax.css
+	 * @Author Original @msurguy -> http://bootsnipp.com/snippets/featured/parallax-login-form
+	 * @Reworked By @kaptenn_com 
+	 * @package PARALLAX LOGIN.
+	 */
+
+    body {
+        background: url(background.jpg);
+        height: 100%;
+        min-height: 500px;
+    }
+    .form-signin input[type="text"] {
+        margin-bottom: 5px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .form-signin input[type="password"] {
+        margin-bottom: 10px;
+    }
+    .form-signin .form-control {
+        position: relative;
+        font-size: 16px;
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+        height: auto;
+        padding: 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .vertical-offset-100 {
+        padding-top: 100px;
+    }
+    .img-responsive {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    .panel {
+        width: 300px;
+        background-color: #3E89C4;
+        -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+        border-radius: 0;
+        border:0;
+    }
+    .panel-body{
+        padding-top: 0;
+    }
+    .vertical-offset-50p {
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+        margin-top: -162px;
+        margin-left: -150px;
+    }
+    
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="vertical-offset-50p">
+            <div class="panel panel-default">
+                <div class="panel-heading">                                
+                    <div class="row-fluid user-row">
+                        <img src="logo.png" class="img-responsive" style="width:100px;padding-top: 25px;padding-bottom: 25px" alt="Passepartout"/>
+                    </div>
+                </div>
+                <div class="panel-body" style="background: #ECECEC">
+                    <form accept-charset="UTF-8" role="form" class="form-signin">
+                        <fieldset>
+                            <label class="panel-login">
+                                <div class="login_result" ng-bind="error"></div>
+                            </label>
+
+                            <input style="border:0;" class="form-control text-center" autofocus placeholder="Authentication code" name="password"
+                                   type="password" value="" required ng-model="password" ng-keyup="$event.keyCode == 13 ? go() : null">
+
+
+                            <input class="btn btn-lg btn-block"  style="background: #3E89C4;color:#fff;opacity: 1; "
+                                   ng-click="go()" ng-disabled="password == ''" value="Login »">
+                            <label class="panel-login">
+                                <div class="login_result"><small>The password is pass</small></div>
+                            </label>
+                        </fieldset>
+                    </form>
+            <div class="clearfix"></div>
+                </div>
+            </div>
+        <p class="text-center" style="font-weight:200; color:#fff">Elephant 2.0</p>
+        </div>
+    </div>
+</div>
+
+
