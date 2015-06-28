@@ -15,8 +15,6 @@ $db->set_model_directory($rootDir.'/model');
 $input = json_decode(file_get_contents("php://input"));
 $func = $_GET['func'];
 
-$current_id=isset($_GET['code'])?$_GET['code']:session_id();
-
 // Change the password
 $password = "pass";
 
